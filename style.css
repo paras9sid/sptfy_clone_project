@@ -118,6 +118,15 @@ footer section.container{
     flex-wrap: wrap;
     padding: 6rem 0 4rem 0;
 }
+
+footer .logo img{
+    width: 70%;
+}
+
+footer .logo img:hover{
+    cursor: pointer;
+}
+
 footer .links{
     display: flex;
     flex-wrap: wrap;
@@ -130,15 +139,30 @@ footer .links ul li{
     padding: 1.3rem;
 }
 
+footer .links ul li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
 footer .links ul .heading{
     color: #919496;
     font-weight: 700;
     font-size: 1.3rem;
 }
 
+footer .links ul .heading:hover{
+    color:#919496;
+    cursor: text;
+}
+
 footer .social ul{
     display: flex;
     justify-content: center;
+}
+
+footer .social{
+    flex-grow: 1;
+    margin: 20px 0;
 }
 
 footer .social ul li{
@@ -156,4 +180,51 @@ footer .social ul li{
 footer .social ul li:hover{
     color: #1ed760;
     cursor: pointer;
+}
+
+footer .location{
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    color: #919496;
+}
+
+footer .location:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+footer .location span{
+    padding: 0 1rem;;
+}
+footer .location i{
+    align-self: center;
+}
+
+footer .extras{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .extras ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 45px 0 0;
+}
+
+footer .extras ul li{
+    font-size: 1.1rem;
+    color: #919496;
+    padding: 1rem;
+}
+
+footer .extras span{
+    font-size: 1.2rem;
+    color: #919496;
+    padding-right: 1rem;
+    align-self: center;
 }
