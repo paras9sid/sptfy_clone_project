@@ -73,6 +73,10 @@ section.banner{
     justify-content: center;
     align-items: center;
     color: #1ed760;
+    background-image: url('./media/bg/main.svg');
+    background-size: 170%;
+    background-position: 46% 4%;
+    background-repeat: no-repeat;
 }
 
 section.banner h1{
