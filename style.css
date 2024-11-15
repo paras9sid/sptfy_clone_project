@@ -87,6 +87,7 @@ section.banner h1{
 section.banner p {
     font-size: 1.6rem;
     margin: 2rem 0;
+    text-align: center;
 }
 
 section.banner button{
