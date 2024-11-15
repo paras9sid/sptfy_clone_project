@@ -65,6 +65,16 @@ header nav ul li:hover{
     cursor: pointer;
 }
 
+header nav.mobile-menu{
+    display: none;
+    align-self: center;
+}
+
+header nav.mobile-menu img{
+    width: 25px;
+    height: 25px;
+}
+
 section.banner{
     background-color: #2941ab;
     height: 120vh;
