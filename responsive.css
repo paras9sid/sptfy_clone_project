@@ -16,6 +16,12 @@
 }
 
 @media (max-width:768px){ 
+
+    :root{        
+        --header-height: 60px;
+        --logo-height: 30px;
+    }
+    
     header{
         height: 6rem;;
     }  
@@ -47,6 +53,10 @@
 }
 
 @media (max-width: 480px){
+    :root{        
+        --header-height: 50px;
+        --logo-height: 25px;
+    }
     header{
         height: 5rem;
     }
