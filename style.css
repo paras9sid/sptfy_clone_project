@@ -130,6 +130,11 @@ footer section.container{
     padding: 6rem 0 4rem 0;
 }
 
+/* footer .logo{
+    display: flex;
+    justify-content: center;
+} */
+
 footer .logo img{
     width: 70%;
 }
@@ -230,7 +235,7 @@ footer .extras ul{
 footer .extras ul li{
     font-size: 1.1rem;
     color: #919496;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 footer .extras span{

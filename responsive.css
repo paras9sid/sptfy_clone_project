@@ -31,9 +31,28 @@
     section.banner h1{
         font-size: 6rem;   
     }
+    footer .links{
+        width: 100%;
+        margin: 2rem auto;
+        flex-direction: column;
+
+    }
+    footer .company, footer .communities, footer .useful-links{
+        margin-top: 2rem;
+    }
+    footer .extras span{
+        margin-top: 2rem;;
+    }
+
 }
 
 @media (max-width: 480px){
+    header{
+        height: 5rem;
+    }
+    header .logo img{
+        height: 25px;
+    }
     section.banner{        
         background-image: url('./media/bg/main-mobile.svg');
         background-size: 195%;
